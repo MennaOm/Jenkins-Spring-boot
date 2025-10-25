@@ -21,7 +21,8 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'Skipping tests...'
+                sh 'echo "Skipping tests..."'
+
             }
         }
 
